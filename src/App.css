@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+.regContainer {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.regWrap {
+  background-color: 	#7c81f4;
+  padding: 20px 60px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.regWrap h1   {
+  color: #542800;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+input {
+  padding: 15px;
+  border: none;
+  width: 250px;
+}
+button {
+  background-color: #542800;
+  color:  #a5cceb;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #a5cceb;
+  color: #542800;
+}
+p {
+  color: #fdf8df;
+  font-size: 12px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+p:hover {
+  text-decoration: underline;
+}
+label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #542800;
+  cursor: pointer;
+}
+.sidebar {
+  flex: 1;
+  background-color:  #5487b1;
+
+}
+.chat {flex: 2;}
+
+@media screen and (max-width: 480px) {
+
+}
